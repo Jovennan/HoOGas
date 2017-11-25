@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF67EADC1FC8EA010057AA62 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF67EADB1FC8EA010057AA62 /* LoginController.swift */; };
 		AFD8CD241FC8D1EE001AC7A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD8CD231FC8D1EE001AC7A1 /* AppDelegate.swift */; };
 		AFD8CD261FC8D1EE001AC7A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD8CD251FC8D1EE001AC7A1 /* ViewController.swift */; };
 		AFD8CD291FC8D1EE001AC7A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD8CD271FC8D1EE001AC7A1 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AF67EADB1FC8EA010057AA62 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		AFD8CD201FC8D1EE001AC7A1 /* HoOGas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HoOGas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD8CD231FC8D1EE001AC7A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFD8CD251FC8D1EE001AC7A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,6 +78,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AF67EAD81FC8E8C10057AA62 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AF67EAD91FC8E90A0057AA62 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AF67EADA1FC8E9140057AA62 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				AF67EADB1FC8EA010057AA62 /* LoginController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		AFD8CD171FC8D1EE001AC7A1 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +123,9 @@
 		AFD8CD221FC8D1EE001AC7A1 /* HoOGas */ = {
 			isa = PBXGroup;
 			children = (
+				AF67EADA1FC8E9140057AA62 /* Controller */,
+				AF67EAD91FC8E90A0057AA62 /* View */,
+				AF67EAD81FC8E8C10057AA62 /* Model */,
 				AFD8CD231FC8D1EE001AC7A1 /* AppDelegate.swift */,
 				AFD8CD251FC8D1EE001AC7A1 /* ViewController.swift */,
 				AFD8CD271FC8D1EE001AC7A1 /* Main.storyboard */,
@@ -263,6 +290,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFD8CD2C1FC8D1EE001AC7A1 /* HoOGas.xcdatamodeld in Sources */,
+				AF67EADC1FC8EA010057AA62 /* LoginController.swift in Sources */,
 				AFD8CD261FC8D1EE001AC7A1 /* ViewController.swift in Sources */,
 				AFD8CD241FC8D1EE001AC7A1 /* AppDelegate.swift in Sources */,
 			);
